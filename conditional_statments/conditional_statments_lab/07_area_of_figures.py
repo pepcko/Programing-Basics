@@ -14,8 +14,8 @@ elif figure == "rectangle":
     area = rectangle_length * rectangle_width
 
 elif figure == "circle":
-        circle_radius = float(input())
-        area = pi * circle_radius ** 2
+    circle_radius = float(input())
+    area = pi * circle_radius ** 2
 
 elif figure == "triangle":
     triangle_base = float(input())
