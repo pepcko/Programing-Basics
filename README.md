@@ -5,3 +5,5 @@ These are most programig-basics problem solutions.
 2. Conditional Statmens
 3. Conditional Statment Advanced
 4. For Loops
+5. While Loops
+6. Nested Loops
