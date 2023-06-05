@@ -2,8 +2,8 @@ last_sector = input()
 rows_in_first_sector = int(input())
 number_odd_seats = int(input())
 sector_range = range(ord("A"), ord(last_sector) + 1)
-odd_range = range(ord("a"), ord("a") + number_odd_seats)
-even_range = range(ord("a"), ord("a") + number_odd_seats + 2)
+odd_range = range(97, 97 + number_odd_seats)
+even_range = range(97, 97 + number_odd_seats + 2)
 total_seats = 0
 
 for sector in sector_range:
